@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Plus, Edit2, Trash2, RefreshCw, Settings, Download, Upload, BarChart3, Moon, Sun, Lock, LogOut } from 'lucide-react';
+import { Plus, Edit2, Trash2, Settings, Download, Upload, BarChart3, Moon, Sun, Lock, LogOut } from 'lucide-react';
 
 const SecurePnLTracker = () => {
   const [authenticated, setAuthenticated] = useState(false);
