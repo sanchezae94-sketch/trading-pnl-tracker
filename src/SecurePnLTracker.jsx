@@ -98,11 +98,7 @@ const SecurePnLTracker = () => {
   };
 
   const deleteTrade = (id) => {
-  const deleteTrade = (id) => {
-  setTrades(trades.filter(t => t.id !== id));
-};
-      setTrades(trades.filter(t => t.id !== id));
-    }
+    setTrades(trades.filter(t => t.id !== id));
   };
 
   const editTrade = (trade) => {
